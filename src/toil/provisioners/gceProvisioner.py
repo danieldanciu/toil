@@ -441,7 +441,8 @@ class GCEProvisioner(AbstractProvisioner):
                       'ex_nic_gce_struct': ex_nic_gce_struct,
                       'ex_on_host_maintenance': ex_on_host_maintenance,
                       'ex_automatic_restart': ex_automatic_restart,
-                      'ex_preemptible': ex_preemptible}
+                      'ex_preemptible': ex_preemptible,
+                      'internal_ip': None}
         # List for holding the status information for disk/node creation.
         status_list = []
 
